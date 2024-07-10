@@ -1,0 +1,42 @@
+body{
+  background-image: url(assets/landscape.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clock-container{
+  backdrop-filter: blur(3px);
+}
+
+.clock {
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-shadow: 3px 3px 10px hsla(0, 0%, 0%, .75);
+}
+
+.date-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  backdrop-filter: blur(3px);
+}
+
+.date {
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-shadow: 3px 3px 10px hsla(0, 0%, 0%, .75);
+  text-decoration: underline;
+}
